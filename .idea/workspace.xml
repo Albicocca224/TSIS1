@@ -1,13 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="680e17c6-b396-406e-a4c2-38ec824376e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pythonProject1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="680e17c6-b396-406e-a4c2-38ec824376e8" name="Changes" comment="commentariy k commitu">
+      <change afterPath="$PROJECT_DIR$/Classes/task1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classes/task2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classes/task3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classes/task4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classes/task5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classes/task6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functionspt1/task1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functionspt1/task10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functionspt1/task11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functionspt1/task12.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functionspt1/task13.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functionspt1/task14.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functionspt1/task2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functionspt1/task3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functionspt1/task4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functionspt1/task5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functionspt1/task6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functionspt1/task7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functionspt1/task8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functionspt1/task9.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functionspt2/task1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +44,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2bDKSamRtIJ8Iymd07OWNaiaBGI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -35,9 +55,28 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.main.executor": "Debug",
+    "Python.task1.executor": "Run",
+    "Python.task10.executor": "Run",
+    "Python.task11.executor": "Run",
+    "Python.task12.executor": "Run",
+    "Python.task13.executor": "Run",
+    "Python.task14.executor": "Run",
+    "Python.task2.executor": "Run",
+    "Python.task3.executor": "Run",
+    "Python.task4.executor": "Run",
+    "Python.task5.executor": "Run",
+    "Python.task6.executor": "Run",
+    "Python.task7.executor": "Run",
+    "Python.task8.executor": "Run",
+    "Python.task9.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "TSIS3",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -57,11 +96,42 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705744209914</updated>
-      <workItem from="1705744218659" duration="26000" />
+      <workItem from="1705744218659" duration="369000" />
+      <workItem from="1707140633398" duration="7551000" />
     </task>
+    <task id="LOCAL-00001" summary="commentariy k commitu">
+      <option name="closed" value="true" />
+      <created>1705744317478</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705744317478</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commentariy k commitu" />
+    <option name="LAST_COMMIT_MESSAGE" value="commentariy k commitu" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pythonProject1$main.coverage" NAME="main Coverage Results" MODIFIED="1707144397661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
+    <SUITE FILE_PATH="coverage/pythonProject1$task14.coverage" NAME="task14 Coverage Results" MODIFIED="1707154584627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Functionspt1" />
+    <SUITE FILE_PATH="coverage/pythonProject1$task7.coverage" NAME="task7 Coverage Results" MODIFIED="1707153178813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Functionspt1" />
+    <SUITE FILE_PATH="coverage/pythonProject1$task1.coverage" NAME="task1 Coverage Results" MODIFIED="1707152479590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Functionspt1" />
+    <SUITE FILE_PATH="coverage/pythonProject1$task8.coverage" NAME="task8 Coverage Results" MODIFIED="1707153537509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Functionspt1" />
+    <SUITE FILE_PATH="coverage/pythonProject1$task13.coverage" NAME="task13 Coverage Results" MODIFIED="1707154178638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Functionspt1" />
+    <SUITE FILE_PATH="coverage/pythonProject1$task4.coverage" NAME="task4 Coverage Results" MODIFIED="1707152815974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Functionspt1" />
+    <SUITE FILE_PATH="coverage/pythonProject1$task9.coverage" NAME="task9 Coverage Results" MODIFIED="1707153667054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Functionspt1" />
+    <SUITE FILE_PATH="coverage/pythonProject1$task12.coverage" NAME="task12 Coverage Results" MODIFIED="1707153974367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Functionspt1" />
+    <SUITE FILE_PATH="coverage/pythonProject1$task3.coverage" NAME="task3 Coverage Results" MODIFIED="1707151552594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
+    <SUITE FILE_PATH="coverage/pythonProject1$task5.coverage" NAME="task5 Coverage Results" MODIFIED="1707152962761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Functionspt1" />
+    <SUITE FILE_PATH="coverage/pythonProject1$task10.coverage" NAME="task10 Coverage Results" MODIFIED="1707153742721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Functionspt1" />
+    <SUITE FILE_PATH="coverage/pythonProject1$task11.coverage" NAME="task11 Coverage Results" MODIFIED="1707153874408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Functionspt1" />
+    <SUITE FILE_PATH="coverage/pythonProject1$task6.coverage" NAME="task6 Coverage Results" MODIFIED="1707153102330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Functionspt1" />
+    <SUITE FILE_PATH="coverage/pythonProject1$task2.coverage" NAME="task2 Coverage Results" MODIFIED="1707152466687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Functionspt1" />
   </component>
 </project>
