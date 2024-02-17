@@ -4,18 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a1193c6-3b52-4081-b2c5-dddc759940ff" name="Changes" comment="">
+    <list default="true" id="3a1193c6-3b52-4081-b2c5-dddc759940ff" name="Changes" comment="finish">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/TSIS4.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DateParsing/task1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DateParsing/task2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DateParsing/task3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DateParsing/task4.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Generators/task1.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Generators/task2.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Generators/task3.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Generators/task4.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Generators/task5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MathModule/task1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MathModule/task2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MathModule/task3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MathModule/task4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsonParsing/sample-data.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/jsonParsing/task1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,18 +93,31 @@
       <updated>1708002514694</updated>
       <workItem from="1708002518912" duration="2350000" />
       <workItem from="1708093075527" duration="598000" />
-      <workItem from="1708169705272" duration="2511000" />
+      <workItem from="1708169705272" duration="2876000" />
     </task>
+    <task id="LOCAL-00001" summary="finish">
+      <option name="closed" value="true" />
+      <created>1708172587840</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708172587840</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TSIS4$task2.coverage" NAME="task2 Coverage Results" MODIFIED="1708008447348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Generators" />
     <SUITE FILE_PATH="coverage/TSIS4$task5.coverage" NAME="task5 Coverage Results" MODIFIED="1708170433945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Generators" />
     <SUITE FILE_PATH="coverage/TSIS4$task3.coverage" NAME="task3 Coverage Results" MODIFIED="1708170093280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Generators" />
-    <SUITE FILE_PATH="coverage/TSIS4$task1.coverage" NAME="task1 Coverage Results" MODIFIED="1708171798435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jsonParsing" />
+    <SUITE FILE_PATH="coverage/TSIS4$task1.coverage" NAME="task1 Coverage Results" MODIFIED="1708172490615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jsonParsing" />
     <SUITE FILE_PATH="coverage/TSIS4$task4.coverage" NAME="task4 Coverage Results" MODIFIED="1708170171615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Generators" />
   </component>
 </project>
