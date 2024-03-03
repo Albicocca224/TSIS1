@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="417a9801-fbe8-45c5-b14e-3e3e563cde07" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/TSIS6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Built-in-func/task1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Built-in-func/task2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Built-in-func/task3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Built-in-func/task4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Built-in-func/task5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Directories-Files/task1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Directories-Files/task2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Directories-Files/task3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Directories-Files/task4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Directories-Files/task5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Directories-Files/task6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Directories-Files/task7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Directories-Files/task8.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2dAfCgTzZfM0Z0wCqxWiMjYDXcA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.task1.executor": "Run",
+    "Python.task2.executor": "Run",
+    "Python.task3.executor": "Run",
+    "Python.task4.executor": "Run",
+    "Python.task5.executor": "Run",
+    "Python.task6.executor": "Run",
+    "Python.task7.executor": "Run",
+    "Python.task8.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-50da183f06c8-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13135.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="417a9801-fbe8-45c5-b14e-3e3e563cde07" name="Changes" comment="" />
+      <created>1709455677826</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709455677826</updated>
+      <workItem from="1709455682823" duration="5683000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/TSIS6$task6.coverage" NAME="task6 Coverage Results" MODIFIED="1709461927030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/built-in-func" />
+    <SUITE FILE_PATH="coverage/TSIS6$task3.coverage" NAME="task3 Coverage Results" MODIFIED="1709464002344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Built-in-func" />
+    <SUITE FILE_PATH="coverage/TSIS6$task1.coverage" NAME="task1 Coverage Results" MODIFIED="1709463274972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Built-in-func" />
+    <SUITE FILE_PATH="coverage/TSIS6$task4.coverage" NAME="task4 Coverage Results" MODIFIED="1709464157073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Built-in-func" />
+    <SUITE FILE_PATH="coverage/TSIS6$task8.coverage" NAME="task8 Coverage Results" MODIFIED="1709462850110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/built-in-func" />
+    <SUITE FILE_PATH="coverage/TSIS6$task5.coverage" NAME="task5 Coverage Results" MODIFIED="1709464356581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Built-in-func" />
+    <SUITE FILE_PATH="coverage/TSIS6$task2.coverage" NAME="task2 Coverage Results" MODIFIED="1709463541662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Built-in-func" />
+    <SUITE FILE_PATH="coverage/TSIS6$task7.coverage" NAME="task7 Coverage Results" MODIFIED="1709462586038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/built-in-func" />
+  </component>
+</project>
