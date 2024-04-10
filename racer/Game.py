@@ -111,18 +111,18 @@ pygame.mixer.music.play(-1)
 while True:
     #Cycles through all events occuring
     for event in pygame.event.get():
-        if event.type == INC_SPEED:
-            SPEED += 0.5
+        # if event.type == INC_SPEED:
+        #     SPEED += 0.5
         if event.type == QUIT:
             pygame.quit()
             sys.exit()
 
 
     DISPLAYSURF.blit(background, (0,0))
-    scores = font_small.render(str(SCORE), True, BLACK)
+    scores = font_small.render("Score: " + str(SCORE), True, BLACK)
     DISPLAYSURF.blit(scores, (10,10))
-    coin_scores = font_small.render(str(COINS_SCORE), True, BLACK)
-    DISPLAYSURF.blit(coin_scores, (SCREEN_WIDTH-50,10))
+    coin_scores = font_small.render("Coins value: " + str(COINS_SCORE), True, BLACK)
+    DISPLAYSURF.blit(coin_scores, (200,10))
 
     #Moves and Re-draws all Sprites
     for entity in all_sprites:
@@ -132,7 +132,8 @@ while True:
 
     #To be run if collision occurs between Player and Enemy
     if pygame.sprite.spritecollideany(P1, coins):
-        COINS_SCORE +=1
+        COINS_SCORE += random.randint(1,5)
+        SPEED+=0.5
         C1.rect.top = 0
         C1.rect.center = (random.randint(40, SCREEN_WIDTH - 40), 0)
     if pygame.sprite.spritecollideany(P1, enemies):

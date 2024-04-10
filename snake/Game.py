@@ -38,7 +38,8 @@ snake_body = [[100, 50],
 # fruit position
 fruit_position = [random.randrange(1, (window_x // 10)) * 10,
                   random.randrange(1, (window_y // 10)) * 10]
-
+food_timer = 0
+food_threshold = 100
 fruit_spawn = True
 
 # setting default snake direction towards
@@ -159,6 +160,13 @@ while True:
                           random.randrange(1, (window_y // 10)) * 10]
 
     fruit_spawn = True
+    food_timer+=1
+    if food_timer >= food_threshold:
+        fruit_spawn = False
+        food_timer = 0
+        # fruit_position = [random.randrange(1, (window_x // 10)) * 10,
+        #                     random.randrange(1, (window_y // 10)) * 10]
+
     game_window.fill(black)
 
     for pos in snake_body:

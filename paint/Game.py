@@ -31,10 +31,19 @@ clear_butt_text = font.render("Clear screen", True, colors["black"], (255, 255, 
 clear_butt_rect = clear_butt_text.get_rect()
 clear_butt_rect.center = (900, 10)
 
-square_selected_true = pygame.image.load('img/square_selected_true.png')
-square_selected_false = pygame.image.load('img/square_selected_false.png')
+rectangle_selected_true = pygame.image.load('img/rectangle_selected_true.png')
+rectangle_selected_false = pygame.image.load('img/rectangle_selected_false.png')
 circle_selected_true = pygame.image.load('img/circle_selected_true.png')
 circle_selected_false = pygame.image.load('img/circle_selected_false.png')
+square_selected_true = pygame.image.load('img/rectangle_selected_true.png')
+square_selected_false = pygame.image.load('img/rectangle_selected_false.png')
+r_triangle_selected_true = pygame.image.load('img/rectangle_selected_true.png')
+r_triangle_selected_false = pygame.image.load('img/rectangle_selected_false.png')
+eq_triangle_selected_true = pygame.image.load('img/rectangle_selected_true.png')
+eq_triangle_selected_false = pygame.image.load('img/rectangle_selected_false.png')
+rhombus_selected_true = pygame.image.load('img/rectangle_selected_true.png')
+rhombus_selected_false = pygame.image.load('img/rectangle_selected_false.png')
+
 
 display.fill(colors["white"])
 
@@ -49,7 +58,7 @@ def get_canvas_image():
     return screenshot
 
 
-def draw_square(first_corner, second_corner):
+def draw_rectangle(first_corner, second_corner):
     # first_corner = rect_pos[0] --> (a,b)
     # second_corner = rect_pos[1] --> (c,d)
     # third_corner = (first_corner[0], second_corner[1]) -->(a,d)
@@ -66,7 +75,27 @@ def draw_square(first_corner, second_corner):
         first_corner[0] - second_corner[0])  # width will be the difference of x coordinates of the two opposite points
     h = abs(first_corner[1] - second_corner[1])  # same thing with the height
     return left_x, left_y, w, h
-
+def draw_square(top_left, side_length):
+    left_x = top_left[0]
+    left_y = top_left[1]
+    w = h = side_length  # In a square, width and height are the same
+    return left_x, left_y, w, h
+def draw_r_triangle(top_left, base, height):
+    left_x = top_left[0]
+    left_y = top_left[1]
+    w = base
+    h = height
+    return left_x, left_y, w, h
+def draw_eq_triangle(top_left, side_length):
+    left_x = top_left[0]
+    left_y = top_left[1]
+    w = h = side_length
+    return left_x, left_y, w, h
+def draw_rhombus(top_left, side_length):
+    left_x = top_left[0]
+    left_y = top_left[1]
+    w = h = side_length
+    return left_x, left_y, w, h
 
 def pen_draw(pen_color, pos, prev_pos, display, size):
     dist = sqrt((pos[0] - prev_pos[0]) ** 2 + (pos[1] - prev_pos[1]) ** 2)
@@ -92,11 +121,19 @@ def main():
         color_button.append(pygame.Rect((button_size + button_gap) * (i), button_size, button_size, button_size))
         pygame.draw.rect(display, [*colors.values()][i], color_button[i])
 
-    # this draws the square tool, (15,25)
-    square_rect = pygame.Rect(15, 25, 10, 10)
+    # this draws the rectangle tool, (15,25)
+    rectangle_rect = pygame.Rect(15, 25, 10, 10)
     circle_rect = pygame.Rect(30, 25, 10, 10)
-    display.blit(square_selected_false, square_rect)
+    square_rect = pygame.Rect(45, 25, 10, 10)
+    r_triangle_rect = pygame.Rect(60, 25, 10, 10)
+    eq_triangle_rect = pygame.Rect(75, 25, 10, 10)
+    rhombus_rect = pygame.Rect(90, 25, 10, 10)
+    display.blit(rectangle_selected_false, rectangle_rect)
     display.blit(circle_selected_false, circle_rect)
+    display.blit(square_selected_false, square_rect)
+    display.blit(r_triangle_selected_false, r_triangle_rect)
+    display.blit(eq_triangle_selected_false, eq_triangle_rect)
+    display.blit(rhombus_selected_false, rhombus_rect)
     pos = (0, 0)
 
     while True:
@@ -126,15 +163,30 @@ def main():
                         pygame.draw.rect(display, [*colors.values()][i], color_button[i])
 
                     if tool_id == 1:
-                        display.blit(square_selected_true, square_rect)
+                        display.blit(rectangle_selected_true, rectangle_rect)
                     else:
-                        display.blit(square_selected_false, square_rect)
+                        display.blit(rectangle_selected_false, rectangle_rect)
 
                     if tool_id == 2:
                         display.blit(circle_selected_true, circle_rect)
                     else:
                         display.blit(circle_selected_false, circle_rect)
-
+                    if tool_id == 3:
+                        display.blit(square_selected_true, square_rect)
+                    else:
+                        display.blit(square_selected_false, square_rect)
+                    if tool_id == 4:
+                        display.blit(r_triangle_selected_true, r_triangle_rect)
+                    else:
+                        display.blit(r_triangle_selected_false, r_triangle_rect)
+                    if tool_id == 5:
+                        display.blit(eq_triangle_selected_true, eq_triangle_rect)
+                    else:
+                        display.blit(eq_triangle_selected_false, eq_triangle_rect)
+                    if tool_id == 6:
+                        display.blit(rhombus_selected_true, rhombus_rect)
+                    else:
+                        display.blit(rhombus_selected_false, rhombus_rect)
                     display.blit(clear_butt_text, clear_butt_rect)
 
                 # checks if any color is pressed
@@ -143,15 +195,15 @@ def main():
                         pen_color = [*colors.values()][i]
                         break
 
-                if square_rect.collidepoint(pos):  # tool id = 0
+                if rectangle_rect.collidepoint(pos):  # tool id = 0
                     print("click on the diagonally opposite ends of the rectangle you want to draw")
 
                     tool_id = 1 if tool_id != 1 else 0
                     rect_pos = []
                     if tool_id == 1:
-                        display.blit(square_selected_true, square_rect)
+                        display.blit(rectangle_selected_true, rectangle_rect)
                     else:
-                        display.blit(square_selected_false, square_rect)
+                        display.blit(rectangle_selected_false, rectangle_rect)
 
                     display.blit(circle_selected_false, circle_rect)
 
@@ -163,8 +215,43 @@ def main():
                         display.blit(circle_selected_true, circle_rect)
                     else:
                         display.blit(circle_selected_false, circle_rect)
-                    display.blit(square_selected_false, square_rect)
-
+                    display.blit(rectangle_selected_false, rectangle_rect)
+                if square_rect.collidepoint(pos):
+                    print("click on the top left corner of the square you want to draw")
+                    tool_id = 3 if tool_id != 3 else 0
+                    rect_pos = []
+                    if tool_id == 3:
+                        display.blit(rectangle_selected_true, square_rect)
+                    else:
+                        display.blit(rectangle_selected_false, square_rect)
+                    display.blit(circle_selected_false, circle_rect)
+                if r_triangle_rect.collidepoint(pos):
+                    print("click on the top left corner of the right triangle you want to draw")
+                    tool_id = 4 if tool_id != 4 else 0
+                    rect_pos = []
+                    if tool_id == 4:
+                        display.blit(rectangle_selected_true, r_triangle_rect)
+                    else:
+                        display.blit(rectangle_selected_false, r_triangle_rect)
+                    display.blit(circle_selected_false, circle_rect)
+                if eq_triangle_rect.collidepoint(pos):
+                    print("click on the top left corner of the equilateral triangle you want to draw")
+                    tool_id = 5 if tool_id != 5 else 0
+                    rect_pos = []
+                    if tool_id == 5:
+                        display.blit(rectangle_selected_true, eq_triangle_rect)
+                    else:
+                        display.blit(rectangle_selected_false, eq_triangle_rect)
+                    display.blit(circle_selected_false, circle_rect)
+                if rhombus_rect.collidepoint(pos):
+                    print("click on the top left corner of the rhombus you want to draw")
+                    tool_id = 6 if tool_id != 6 else 0
+                    rect_pos = []
+                    if tool_id == 6:
+                        display.blit(rectangle_selected_true, rhombus_rect)
+                    else:
+                        display.blit(rectangle_selected_false, rhombus_rect)
+                    display.blit(circle_selected_false, circle_rect)
                 # main drawing part
                 if tool_id:  # drawing with tools
                     if len(rect_pos) < 2 and (pos[1] - size // 2) > 35:
@@ -175,7 +262,7 @@ def main():
                         second_corner = rect_pos[1]  # --> (c,d)
 
                         if tool_id == 1:  # this draws rectangle
-                            left_x, left_y, w, h = draw_square(first_corner, second_corner)
+                            left_x, left_y, w, h = draw_rectangle(first_corner, second_corner)
                             pygame.draw.rect(display, pen_color, pygame.Rect(left_x, left_y, w, h), size)
 
                         if tool_id == 2:  # this draws circle
@@ -184,8 +271,23 @@ def main():
                             radius = sqrt((center[0] - first_corner[0]) ** 2 + (
                                         center[1] - first_corner[1]) ** 2)  # distance formula(pythagoras)
                             pygame.draw.circle(display, pen_color, center, radius, size)
-
+                        if tool_id == 3:
+                            left_x, left_y, w, h = draw_square(first_corner, second_corner[0] - first_corner[0])
+                            pygame.draw.rect(display, pen_color, pygame.Rect(left_x, left_y, w, h), size)
                         rect_pos = []
+                        if tool_id == 4:
+                            left_x, left_y, w, h = draw_r_triangle(first_corner, second_corner[0] - first_corner[0],
+                                                                  second_corner[1] - first_corner[1])
+                            pygame.draw.polygon(display, pen_color, [(left_x, left_y), (left_x + w, left_y),
+                                                                    (left_x, left_y + h)], size)
+                        if tool_id == 5:
+                            left_x, left_y, w, h = draw_eq_triangle(first_corner, second_corner[0] - first_corner[0])
+                            pygame.draw.polygon(display, pen_color, [(left_x, left_y), (left_x + w, left_y),
+                                                                    (left_x + w // 2, left_y + h)], size)
+                        if tool_id == 6:
+                            left_x, left_y, w, h = draw_rhombus(first_corner, second_corner[0] - first_corner[0])
+                            pygame.draw.polygon(display, pen_color, [(left_x + w // 2, left_y), (left_x + w, left_y + h // 2),
+                                                                    (left_x + w // 2, left_y + h), (left_x, left_y + h // 2)], size)
 
                 if (pos[1] - size // 2) > canvas_start and tool_id == 0:
                     pen_draw(pen_color, pos, prev_pos, display, size)
