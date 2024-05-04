@@ -1,0 +1,29 @@
+CREATE OR REPLACE PROCEDURE insert_or_update_user(IN name VARCHAR(255), IN phone VARCHAR(20))
+LANGUAGE SQL
+AS $$
+BEGIN
+    INSERT INTO public.proc (name, phone) VALUES (name, phone) ON CONFLICT (name) DO UPDATE SET phone = phone;
+END;
+$$;
+CREATE OR REPLACE PROCEDURE insert_user(IN name VARCHAR(255), IN phone VARCHAR(20))
+LANGUAGE SQL
+AS $$
+BEGIN
+    INSERT INTO public.proc (name, phone) VALUES (name, phone);
+END;
+$$;
+CREATE OR REPLACE PROCEDURE delete_user_by_name(IN username VARCHAR(255))
+LANGUAGE SQL
+AS $$
+BEGIN
+    DELETE FROM public.proc WHERE name = username;
+END;
+$$;
+
+CREATE OR REPLACE PROCEDURE delete_user_by_phone(IN phone VARCHAR(20))
+LANGUAGE SQL
+AS $$
+BEGIN
+    DELETE FROM public.proc WHERE phone = phone;
+END;
+$$;
